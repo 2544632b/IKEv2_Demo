@@ -12,29 +12,10 @@
 		F2532C0B1C992A2E002D3E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2532C091C992A2E002D3E16 /* Main.storyboard */; };
 		F2532C0D1C992A2E002D3E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2532C0C1C992A2E002D3E16 /* Assets.xcassets */; };
 		F2532C101C992A2E002D3E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2532C0E1C992A2E002D3E16 /* LaunchScreen.storyboard */; };
-		F2532C1B1C992A2F002D3E16 /* IKEv2_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2532C1A1C992A2F002D3E16 /* IKEv2_DemoTests.m */; };
-		F2532C261C992A2F002D3E16 /* IKEv2_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2532C251C992A2F002D3E16 /* IKEv2_DemoUITests.m */; };
 		F2532C341C992A7F002D3E16 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2532C331C992A7F002D3E16 /* NetworkExtension.framework */; };
 		F2532C3B1C992D2B002D3E16 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2532C3A1C992D2B002D3E16 /* LoginViewController.m */; };
 		F2532C3D1C992E3F002D3E16 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2532C3C1C992E3F002D3E16 /* Security.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F2532C171C992A2F002D3E16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2532BF21C992A2E002D3E16 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2532BF91C992A2E002D3E16;
-			remoteInfo = IKEv2_Demo;
-		};
-		F2532C221C992A2F002D3E16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2532BF21C992A2E002D3E16 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2532BF91C992A2E002D3E16;
-			remoteInfo = IKEv2_Demo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F2532BFA1C992A2E002D3E16 /* IKEv2_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEv2_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +26,6 @@
 		F2532C0C1C992A2E002D3E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2532C0F1C992A2E002D3E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2532C111C992A2E002D3E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2532C161C992A2F002D3E16 /* IKEv2_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKEv2_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2532C1A1C992A2F002D3E16 /* IKEv2_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKEv2_DemoTests.m; sourceTree = "<group>"; };
-		F2532C1C1C992A2F002D3E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2532C211C992A2F002D3E16 /* IKEv2_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKEv2_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2532C251C992A2F002D3E16 /* IKEv2_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKEv2_DemoUITests.m; sourceTree = "<group>"; };
-		F2532C271C992A2F002D3E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2532C331C992A7F002D3E16 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		F2532C351C992A7F002D3E16 /* IKEv2_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = IKEv2_Demo.entitlements; sourceTree = "<group>"; };
 		F2532C391C992D2B002D3E16 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -68,20 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2532C131C992A2F002D3E16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2532C1E1C992A2F002D3E16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,8 +52,6 @@
 				F2532C3C1C992E3F002D3E16 /* Security.framework */,
 				F2532C331C992A7F002D3E16 /* NetworkExtension.framework */,
 				F2532BFC1C992A2E002D3E16 /* IKEv2_Demo */,
-				F2532C191C992A2F002D3E16 /* IKEv2_DemoTests */,
-				F2532C241C992A2F002D3E16 /* IKEv2_DemoUITests */,
 				F2532BFB1C992A2E002D3E16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				F2532BFA1C992A2E002D3E16 /* IKEv2_Demo.app */,
-				F2532C161C992A2F002D3E16 /* IKEv2_DemoTests.xctest */,
-				F2532C211C992A2F002D3E16 /* IKEv2_DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,24 +89,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F2532C191C992A2F002D3E16 /* IKEv2_DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				F2532C1A1C992A2F002D3E16 /* IKEv2_DemoTests.m */,
-				F2532C1C1C992A2F002D3E16 /* Info.plist */,
-			);
-			path = IKEv2_DemoTests;
-			sourceTree = "<group>";
-		};
-		F2532C241C992A2F002D3E16 /* IKEv2_DemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F2532C251C992A2F002D3E16 /* IKEv2_DemoUITests.m */,
-				F2532C271C992A2F002D3E16 /* Info.plist */,
-			);
-			path = IKEv2_DemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,42 +109,6 @@
 			productReference = F2532BFA1C992A2E002D3E16 /* IKEv2_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F2532C151C992A2F002D3E16 /* IKEv2_DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2532C2D1C992A2F002D3E16 /* Build configuration list for PBXNativeTarget "IKEv2_DemoTests" */;
-			buildPhases = (
-				F2532C121C992A2F002D3E16 /* Sources */,
-				F2532C131C992A2F002D3E16 /* Frameworks */,
-				F2532C141C992A2F002D3E16 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2532C181C992A2F002D3E16 /* PBXTargetDependency */,
-			);
-			name = IKEv2_DemoTests;
-			productName = IKEv2_DemoTests;
-			productReference = F2532C161C992A2F002D3E16 /* IKEv2_DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F2532C201C992A2F002D3E16 /* IKEv2_DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2532C301C992A2F002D3E16 /* Build configuration list for PBXNativeTarget "IKEv2_DemoUITests" */;
-			buildPhases = (
-				F2532C1D1C992A2F002D3E16 /* Sources */,
-				F2532C1E1C992A2F002D3E16 /* Frameworks */,
-				F2532C1F1C992A2F002D3E16 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2532C231C992A2F002D3E16 /* PBXTargetDependency */,
-			);
-			name = IKEv2_DemoUITests;
-			productName = IKEv2_DemoUITests;
-			productReference = F2532C211C992A2F002D3E16 /* IKEv2_DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,14 +126,6 @@
 							};
 						};
 					};
-					F2532C151C992A2F002D3E16 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = F2532BF91C992A2E002D3E16;
-					};
-					F2532C201C992A2F002D3E16 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = F2532BF91C992A2E002D3E16;
-					};
 				};
 			};
 			buildConfigurationList = F2532BF51C992A2E002D3E16 /* Build configuration list for PBXProject "IKEv2_Demo" */;
@@ -247,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				F2532BF91C992A2E002D3E16 /* IKEv2_Demo */,
-				F2532C151C992A2F002D3E16 /* IKEv2_DemoTests */,
-				F2532C201C992A2F002D3E16 /* IKEv2_DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,20 +154,6 @@
 				F2532C101C992A2E002D3E16 /* LaunchScreen.storyboard in Resources */,
 				F2532C0D1C992A2E002D3E16 /* Assets.xcassets in Resources */,
 				F2532C0B1C992A2E002D3E16 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2532C141C992A2F002D3E16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2532C1F1C992A2F002D3E16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,36 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2532C121C992A2F002D3E16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2532C1B1C992A2F002D3E16 /* IKEv2_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2532C1D1C992A2F002D3E16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2532C261C992A2F002D3E16 /* IKEv2_DemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F2532C181C992A2F002D3E16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2532BF91C992A2E002D3E16 /* IKEv2_Demo */;
-			targetProxy = F2532C171C992A2F002D3E16 /* PBXContainerItemProxy */;
-		};
-		F2532C231C992A2F002D3E16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2532BF91C992A2E002D3E16 /* IKEv2_Demo */;
-			targetProxy = F2532C221C992A2F002D3E16 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F2532C091C992A2E002D3E16 /* Main.storyboard */ = {
@@ -452,54 +302,6 @@
 			};
 			name = Release;
 		};
-		F2532C2E1C992A2F002D3E16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = IKEv2_DemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "im.zorro.IKEv2-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKEv2_Demo.app/IKEv2_Demo";
-			};
-			name = Debug;
-		};
-		F2532C2F1C992A2F002D3E16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = IKEv2_DemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "im.zorro.IKEv2-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKEv2_Demo.app/IKEv2_Demo";
-			};
-			name = Release;
-		};
-		F2532C311C992A2F002D3E16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = IKEv2_DemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "im.zorro.IKEv2-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = IKEv2_Demo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		F2532C321C992A2F002D3E16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = IKEv2_DemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "im.zorro.IKEv2-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = IKEv2_Demo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -517,24 +319,6 @@
 			buildConfigurations = (
 				F2532C2B1C992A2F002D3E16 /* Debug */,
 				F2532C2C1C992A2F002D3E16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2532C2D1C992A2F002D3E16 /* Build configuration list for PBXNativeTarget "IKEv2_DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2532C2E1C992A2F002D3E16 /* Debug */,
-				F2532C2F1C992A2F002D3E16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2532C301C992A2F002D3E16 /* Build configuration list for PBXNativeTarget "IKEv2_DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2532C311C992A2F002D3E16 /* Debug */,
-				F2532C321C992A2F002D3E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
